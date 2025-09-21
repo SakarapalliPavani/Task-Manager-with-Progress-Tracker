@@ -1,0 +1,55 @@
+body {
+  font-family: "Courier New", monospace;
+  background: #ffe4e1;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+form {
+  display: flex;
+  gap: 10px;
+}
+#task-list {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  background: #ffffff;
+  margin: 8px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px #ddd;
+}
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+button {
+  cursor: pointer;
+}
+#progress {
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+/* Progress Bar */
+#progress-bar {
+  width: 100%;
+  background: #ddd;
+  border-radius: 4px;
+  margin-top: 10px;
+  height: 20px;
+  overflow: hidden;
+}
+#progress-fill {
+  height: 100%;
+  width: 0%;
+  background: #4caf50;
+  transition: width 0.3s ease;
+}
