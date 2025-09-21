@@ -31,7 +31,7 @@ How to Run Locally
 
 Clone the repository:
 
-git clone https://github.com/yourusername/task-manager-progress-tracker.git
+git clone https://github.com/SakarapalliPavani/task-manager-progress-tracker.git
 
 
 Navigate to the project folder:
